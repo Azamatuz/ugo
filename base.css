@@ -4,6 +4,12 @@ body {
     margin: 0px;
     padding: 0px;
 }
+body h1 {
+    padding-top: 30px;
+}
+body p {
+    font-size: 20px;
+}
 li {
     color: #4F4F4F;
     padding: 20px;
@@ -29,12 +35,46 @@ li {
 .services img {
     padding: 20px;
 }
-.services p {
-    font-size: 20px;
-}
 .readmore1 {
+    background-image: url("img/women_box.png");
     background-color: #E9E9EB;
+    background-position: center;
+    background-size: 1000px ;
+    background-repeat: no-repeat;
+    height: 680px;
 }
-.readmore1 img {
-    s
+.orangebox {
+    background-color: #FF9D39;
+    color: #FFFFFF;
+    margin-left: 100px;
+    margin-top: 67px;
+    height: 400px;
+    width: 400px;
+    ;
+}
+.orangebox h1 {
+    padding-top: 40px;
+}
+.orangebox p {
+   margin: 20px;
+   padding-left: 50px;
+   padding-right: 50px;
+}
+.btn-light {
+    width: 60%;
+}
+.readmore2 {
+    background-color: #FDE9C9;
+    height: 550px;
+}
+.readmore2 img {
+    margin: 30px;
+    position: absolute;
+}
+.white {
+    background-color: #FFFFFF;
+    height: 80px;
+}
+.team {
+    background-color: #F7FDFF;
 }
