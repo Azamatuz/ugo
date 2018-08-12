@@ -1,3 +1,40 @@
+body {
+    color: #4F4F4F;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
 li {
+    color: #4F4F4F;
     padding: 20px;
+}
+.jumbotron {
+    background: url("img/back.png");
+    background-size: cover;
+    height: 500px;
+}
+.jumbotron h1 {
+    color: #FF7600;
+    font-size: 60px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+.jumbotron p {
+    font-size: 30px;
+    padding-right: 20px;
+}
+.jumbotron .btn-block {
+    background-color: #FF7600;
+}
+.services img {
+    padding: 20px;
+}
+.services p {
+    font-size: 20px;
+}
+.readmore1 {
+    background-color: #E9E9EB;
+}
+.readmore1 img {
+    s
 }
