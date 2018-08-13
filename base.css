@@ -17,7 +17,7 @@ li {
     padding: 20px;
 }
 .jumbotron {
-    background: url("img/back.png");
+    background: url("img/image.png");
     background-size: cover;
     height: 500px;
 }
@@ -48,11 +48,11 @@ li {
 .orangebox {
     background-color: #FF9D39;
     color: #FFFFFF;
-    margin-left: 100px;
-    margin-top: 67px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 10%;
     height: 400px;
     width: 400px;
-    ;
 }
 .orangebox h1 {
     padding-top: 40px;
@@ -67,7 +67,6 @@ li {
 }
 .readmore2 {
     background-color: #FDE9C9;
-    height: 550px;
 }
 .readmore2 img {
     padding: 30px;
@@ -87,8 +86,13 @@ li {
 .footer h5 {
     font-style: italic;
 }
-
 ion-icon {
     font-size: 30px;
     padding: 10px;
+}
+@media (max-width: 48em) {
+    table .btn {
+        font-size: 0.75em;
+        font-size: 3.5vw;
+    }
 }
