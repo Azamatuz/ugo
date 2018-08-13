@@ -4,11 +4,13 @@ body {
     margin: 0px;
     padding: 0px;
 }
-body h1 {
+body h1, h2 {
     padding-top: 30px;
 }
 body p {
     font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 li {
     color: #4F4F4F;
@@ -29,7 +31,7 @@ li {
     font-size: 30px;
     padding-right: 20px;
 }
-.jumbotron .btn-block {
+.btn-orange {
     background-color: #FF7600;
 }
 .services img {
@@ -77,4 +79,11 @@ li {
 }
 .team {
     background-color: #F7FDFF;
+}
+footer {
+    background-color: #F0F3F4;
+}
+ion-icon {
+    font-size: 30px;
+    padding: 10px;
 }

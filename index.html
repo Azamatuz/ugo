@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="base.css" type="text/css" />
     <title>uGo</title>
   </head>
   <body>
-    <div class="conainer-fluid text-center">
+    <div class="conainer text-center">
         <!--row 1-->
         <nav class="navbar">
             <div class="container-fluid">  
@@ -61,7 +62,7 @@
                             <input class="form-control" type="search" placeholder="Date" aria-label="Search">
                         </div>
                         <div class="form-row mb-2">
-                            <button class="btn btn-block" type="submit">Search</button>
+                            <button class="btn btn-block btn-orange" type="submit">Search</button>
                         </div>
                          
                    </div>
@@ -130,12 +131,11 @@
         </div>
         <!--row 8-->
         <div class="row team">
-            <div class="col-md-12 text-center">
+            <div class="col-md-12">
               <h1>We are here to help! </h1>
               <p>We now how to move you fast and easy! Contact us.</p>
             </div>
-        </div>
-        <div class="row team">
+   
             <div class="col-md-4">
                 <img src="img/guy1.png"></img>
                 <h2>Kyle Smith</h2>
@@ -151,29 +151,113 @@
                 <h2>Brendon Falagan</h2>
                 <p>VP manager</p>
             </div>
-        </div> 
+        </div>
         <!--row 9-->
-        <div class="row">
-            <div class="col-md">
+        <div class="row team">
+            <div class="col-md-12">  
+        <form>
+            <div class="form-row">
+                <div class="col-md-3 mb-2 offset-md-1">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="col-md-3 mb-2">
+                    <input type="text" class="form-control" placeholder="E-mail">
+                </div>
+                <div class="col-md-4 mb-2">
+                    <select class="form-control" placeholder="Category">
+                        <option selected>Category</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-10 mb-2 offset-md-1">
+                    <textarea class="form-control" rows="2"></textarea>
+                </div>
                 
             </div>
-        </div>>
-        <!--row 10-->
-        <div class="row">
-            <div class="col-md">
-                
+            <div class="col-md-3 mb-2 offset-md-4">
+                <button class="btn btn-block btn-orange" type="submit">Send</button>
             </div>
-        </div>>
+        </form>
+        </div>
+        </div>     
+        
         <!--row 11-->
-        <div class="row">
-            <div class="col-md">
+        <div class="footer">
+            <div class="row">
+                <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-4">
+                        <h2><underline>YXE</underline></h2>
+                        <p><address>
+                            #405 - 2880 3rd Ave<br>The Avenue Building 
+                            Saskatoon<br>
+                            P: 1-855-955-6 <br>
+                            F: 1-306-975-0 <br>
+                            www.ugo.com
+                        </address></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2><underline>CAL</underline></h2>
+                        <p><address>
+                            #405 - 2880 3rd Ave<br>The Avenue Building 
+                            Calgary<br>
+                            P: 1-855-955-6 <br>
+                            F: 1-306-975-0 <br>
+                            www.ugo.com
+                        </address></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h2>TOR</h2>
+                        <p><address>
+                            #405 - 2880 3rd Ave<br>The Avenue Building 
+                            Toronto<br>
+                            P: 1-855-955-6 <br>
+                            F: 1-306-975-0 <br>
+                            www.ugo.com
+                        </address></p>
+                    </div>
+                </div>
+            </div>    
+            <div class="col-md-5">
+                <h2>STAY CONNECTED</h2>
+                <div class="row">
+                    <div class="col-md-5">
+                        <h5>Join over 11 ooo people who receive bi-weekly moving deals</h5>
+                    </div>
+                    <div class="col-md-7">
+                        <form class="form-row">
+                            <div class="mb-2">
+                                <input type="text" class="form-control" placeholder="E-mail">
+                            </div>
+                    <br>
+                    <button class="btn btn-orange" type="submit">Send</button>
+                </form>
+                <div class="row">
+                    <ion-icon name="logo-facebook"></ion-icon>
+                <ion-icon name="logo-whatsapp"></ion-icon>
+                <ion-icon name="logo-googleplus"></ion-icon>
+                 <ion-icon name="map"></ion-icon>    
+                </div>
                 
+                    </div>
+                </div>
+                <div class="text-left">
+                    <p>Designed by Aigerim.</p>
+                </div>
+                
+                
+            </div>    
             </div>
-        </div>>
+            
+                
+                
+            
+        </div>
     </div><!--conainer->>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://unpkg.com/ionicons@4.3.0/dist/ionicons.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
