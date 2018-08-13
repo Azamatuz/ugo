@@ -70,8 +70,9 @@ li {
     height: 550px;
 }
 .readmore2 img {
-    margin: 30px;
+    padding: 30px;
     position: absolute;
+    width: 60%;
 }
 .white {
     background-color: #FFFFFF;
@@ -80,9 +81,13 @@ li {
 .team {
     background-color: #F7FDFF;
 }
-footer {
-    background-color: #F0F3F4;
+.footer h2 {
+    text-decoration: underline;
 }
+.footer h5 {
+    font-style: italic;
+}
+
 ion-icon {
     font-size: 30px;
     padding: 10px;
